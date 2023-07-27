@@ -101,11 +101,11 @@ function carregarUsuarios() {
 
         if (listaCarregada.length == 0){
             // Se nao tiver nenhum usuario cadastrado mostra mensagem
-            let tabela = Document.getElementById("corpo-tabela")
+            let tabela = document.getElementById("corpo-tabela")
             tabela.innerHTML = "Nenhum usuario cadastrado"
         }
 
     console.log(listaCarregada)
 }
 
-window.addEventListener("DomContentLoaded", () => carregarUsuarios() )
+window.addEventListener("DOMContentLoaded", () => carregarUsuarios() )
